@@ -1,0 +1,27 @@
+/*
+
+FLOW
+
+A simple, lightweisht CSS grid container system.
+Written by Matt Bowers -- mattb.co/
+
+*/
+
+html, body {
+  height: 100%;
+}
+img, object, embed, video {
+  max-width: 100%;
+}
+.ie6 img {
+  width: 100%;
+}
+
+.flowContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0 auto;
+  clear: none;
+  float: none;
+}
