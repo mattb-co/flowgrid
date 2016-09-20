@@ -2,7 +2,7 @@
 
 FLOW
 
-A simple, lightweisht CSS grid container system.
+A simple, lightweight CSS grid container system.
 Written by Matt Bowers -- mattb.co/
 
 */
@@ -19,9 +19,96 @@ img, object, embed, video {
 
 .flowContainer {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
   margin: 0 auto;
   clear: none;
   float: none;
+}
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.flow {
+  clear: both;
+  margin-left: 0;
+  width: 100%;
+  float: left;
+  display: block;
+  background-color: #e0e0e0;
+}
+
+
+/* Mobile Layout: 480px and below. */
+
+.fl-m-1, .fl-1 {
+  clear: none;
+}
+.fl-m-2, .fl-2 {
+  width: 50%;
+  clear: none;
+}
+.fl-m-3, .fl-3 {
+  width: 33.33%;
+  clear: none;
+}
+.fl-m-4, .fl-4 {
+  width: 25%;
+  clear: none;
+}
+.fl-m-5, .fl-5 {
+  width: 20%;
+  clear: none;
+}
+.fl-m-6, .fl-6 {
+  width: 16.66%;
+  clear: none;
+}
+.fl-m-8, .fl-8 {
+  width: 12.5%;
+  clear: none;
+}
+.fl-m-10, .fl-10 {
+  width: 10%;
+  clear: none;
+}
+
+/* Tablet Layout: 769px and below. */
+
+@media only screen and (min-width: 481px) {
+  
+.fl-t-1 {
+  clear: none;
+}
+.fl-t-2 {
+  width: 50%;
+  clear: none;
+}
+.fl-t-3 {
+  width: 33.33%;
+  clear: none;
+}
+.fl-t-4 {
+  width: 25%;
+  clear: none;
+}
+.fl-t-5 {
+  width: 20%;
+  clear: none;
+}
+.fl-t-6 {
+  width: 16.66%;
+  clear: none;
+}
+.fl-t-8 {
+  width: 12.5%;
+  clear: none;
+}
+.fl-t-10 {
+  width: 10%;
+  clear: none;
+}
+
 }
