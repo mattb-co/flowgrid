@@ -37,7 +37,6 @@ img, object, embed, video {
   width: 100%;
   float: left;
   display: block;
-  background-color: #e0e0e0;
 }
 
 
@@ -75,6 +74,7 @@ img, object, embed, video {
   clear: none;
 }
 
+
 /* Tablet Layout: 769px and below. */
 
 @media only screen and (min-width: 481px) {
@@ -107,6 +107,45 @@ img, object, embed, video {
   clear: none;
 }
 .fl-t-10 {
+  width: 10%;
+  clear: none;
+}
+
+}
+
+
+/* Desktop Layout: 769px and below. */
+
+@media only screen and (min-width: 770px) {
+
+.fl-d-1 {
+  clear: none;
+}
+.fl-d-2 {
+  width: 50%;
+  clear: none;
+}
+.fl-d-3 {
+  width: 33.33%;
+  clear: none;
+}
+.fl-d-4 {
+  width: 25%;
+  clear: none;
+}
+.fl-d-5 {
+  width: 20%;
+  clear: none;
+}
+.fl-d-6 {
+  width: 16.66%;
+  clear: none;
+}
+.fl-d-8 {
+  width: 12.5%;
+  clear: none;
+}
+.fl-d-10 {
   width: 10%;
   clear: none;
 }
